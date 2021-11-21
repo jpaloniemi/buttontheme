@@ -15,7 +15,7 @@ export const buttonThemes = {
 
 function App() {
   return (
-    <UserContext.Provider value={user}> 
+    <UserContext.Provider value={buttonThemes}> 
     <Header /> 
     </UserContext.Provider>
   );
